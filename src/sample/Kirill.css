@@ -1,0 +1,95 @@
+.tab-pane *.tab-header-area *.tab-header-background {
+-fx-background-color: #fafafa;
+
+-fx-background-image: url("logo2x.png");
+-fx-background-position: center;
+    -fx-background-repeat: no-repeat ;
+-fx-background-size: 500;
+    -fx-background-image-size: 100;
+}
+.tab {
+    -fx-font-style: italic;
+}
+#stackpanewithmap{
+    -fx-background-color: #7880a3;
+    -fx-border-radius: 45;
+    -fx-background-radius: 45;
+}
+#tabwithmap{
+-fx-background-radius: 40;
+-fx-border-radius:40;
+-fx-border-color: #7880a3;
+-fx-background-color: #fafafa;
+-fx-background-repeat: stretch;
+
+-fx-background-position: left center;
+-fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+
+#TrainMapTab{
+    -fx-text-base-color: #fafafa;
+    -fx-background-color: #2E3347;
+    -fx-font-size: 18;
+    -fx-font-style: italic;
+}
+#pausebutton{
+    -fx-image: url("../—Pngtree—pausebutton_3550529.png");
+}
+#pausebutton:hover{
+    -fx-image: url("redbtn.png");
+}
+#sheduletab{
+    -fx-text-base-color: #fafafa;
+    -fx-background-color: #2E3347;
+    -fx-font-size: 18;
+}
+#SheduleTabAnchor{
+    -fx-background-image: url("../914.jpg");
+-fx-background-repeat: no-repeat;
+-fx-background-size: cover;
+}
+.cell{
+    -fx-font-family: "DejaVu Serif";
+}
+
+#tableshedule{
+    -fx-opacity: 0.8;
+}
+#borderofborder:hover {
+    -fx-border-color: RED;
+    -fx-border-width: 20;
+}
+#borderofborder{
+-fx-background-color: #2E3347;
+    -fx-background-radius: 45;
+    -fx-border-color: #7880a3;
+    -fx-border-radius: 35;
+}
+#borderformap{
+    -fx-background-color: #7880a3;
+    -fx-background-radius: 45;
+    -fx-border-color: #7880a3;
+    -fx-border-radius: 45;
+}
+#clockview:hover{
+    -fx-border-color: RED;
+    -fx-border-width: 30;
+}
+#clockview{
+-fx-border-radius:30;
+    -fx-background-radius:40;
+    -fx-background-color: #2E3347;
+}
+
+#clock{
+-fx-background-color: #2E3347;
+    -fx-text-fill:#ffe800;
+    -fx-font-size: 23;
+    -fx-font-family: "Jokerman" ;
+    -fx-alignment: center;
+    /*
+    -fx-content-display: right;
+    */
+    -fx-font-weight: bold;
+} 

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1536.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ticket1_controller">
+   <children>
+      <AnchorPane fx:id="anchor_1" layoutX="354.0" layoutY="206.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: fafafa;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="87.0">
+         <children>
+            <ComboBox fx:id="from_place" layoutX="382.0" layoutY="77.0" prefHeight="59.0" prefWidth="280.0" promptText="Выберите город:" AnchorPane.leftAnchor="382.0" />
+            <Label fx:id="label_from_city" layoutX="382.0" layoutY="27.0" prefHeight="50.0" prefWidth="280.0" text="Пункт отправления" textAlignment="RIGHT" textFill="#2e3348" AnchorPane.leftAnchor="382.0">
+               <font>
+                  <Font name="Book Antiqua" size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_to_city" layoutX="860.0" layoutY="27.0" prefHeight="50.0" prefWidth="280.0" text="Пункт назначения" textAlignment="RIGHT" textFill="#2e3348" AnchorPane.rightAnchor="382.0">
+               <font>
+                  <Font name="Book Antiqua" size="26.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="to_place" layoutX="902.0" layoutY="78.0" prefHeight="59.0" prefWidth="280.0" promptText="Выберите город:" AnchorPane.rightAnchor="382.0" />
+            <ImageView fx:id="arrow_img" fitHeight="50.0" fitWidth="184.0" layoutX="730.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="730.0" AnchorPane.rightAnchor="729.4449768066406">
+               <image>
+                  <Image url="@assets/arrow.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="city_from_label" layoutX="382.0" layoutY="136.0" prefHeight="21.0" prefWidth="280.0" textAlignment="CENTER" textFill="RED" />
+            <Label fx:id="city_to_label" layoutX="874.0" layoutY="136.0" prefHeight="21.0" prefWidth="280.0" textFill="RED" />
+            <Button fx:id="search_button" layoutX="549.0" layoutY="690.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="227.0" style="-fx-background-color: #2E3348;" text="Найти билеты" textFill="WHITE" AnchorPane.leftAnchor="549.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Pagination fx:id="pag_tick" layoutX="335.0" layoutY="180.0" prefHeight="470.0" prefWidth="883.0" style="-fx-border-color: black;" visible="false" AnchorPane.leftAnchor="335.0" AnchorPane.topAnchor="180.0" />
+            <ImageView fx:id="exitbutton" fitHeight="53.0" fitWidth="92.0" layoutY="729.0" onMouseClicked="#exit" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
+               <image>
+                  <Image url="@../vih.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="82.0" fitWidth="200.0" layoutX="58.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="data_button" layoutX="901.0" layoutY="690.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="227.0" style="-fx-background-color: #2E3348;" text="Ввести данные" textFill="WHITE" visible="false">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Label fx:id="place_warning" layoutX="633.0" layoutY="650.0" prefHeight="21.0" prefWidth="347.0" text="Выберите вагон и место для каждого из билетов!" textFill="RED" visible="false" />
+         </children></AnchorPane>
+      <Label layoutX="141.0" prefHeight="87.0" prefWidth="1254.0" text="Добро пожаловать на страницу покупки билетов" textFill="WHITE">
+         <font>
+            <Font name="Georgia Pro Cond" size="56.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="back_to_auth" fitHeight="82.0" fitWidth="73.0" layoutX="6.0" layoutY="3.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="23.0" AnchorPane.topAnchor="2.0">
+         <image>
+            <Image url="@assets/pigeon_PNG3411-148x170.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

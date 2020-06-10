@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="aquafx-0">
+    <CLASSES>
+      <root url="file://E:/aquafx-0.1-complete" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://E:/aquafx-0.1-complete" />
+    </SOURCES>
+    <jarDirectory url="file://E:/aquafx-0.1-complete" recursive="false" />
+    <jarDirectory url="file://E:/aquafx-0.1-complete" recursive="false" type="SOURCES" />
+  </library>
+</component>
